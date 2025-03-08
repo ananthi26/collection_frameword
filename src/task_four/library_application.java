@@ -13,7 +13,7 @@ class Books {
     public String getAuthor() { return author; }
     public int getPages() { return pages; }
     public void displayDetails() {
-        System.out.println("📚 Book Details:");
+        System.out.println("Book Details:");
         System.out.println("Title: " + title);
         System.out.println("Author: " + author);
         System.out.println("Pages: " + pages);
